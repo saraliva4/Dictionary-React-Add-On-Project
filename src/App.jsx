@@ -1,13 +1,16 @@
 import "./App.css";
+import Dictionary from "./Dictionary.jsx";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <h1>hello</h1>
-      <h1>hello</h1>
-      <button className="btn btn-primary">Bootstrap Works</button>
+    <div className="App container">
+      <header>
+        <h1>React Dictionary</h1>
+      </header>
+      <main>
+        <Dictionary />
+      </main>
+      <footer>Coded by Sara Littauer</footer>
     </div>
   );
 }
-
-export default App;

@@ -3,8 +3,10 @@ import Examples from "./Examples";
 
 export default function Meaning(props) {
   return (
-    <div className="Meaning">
-      <h4>{props.meaning.partOfSpeech}</h4>
+    <div className="Meaning mb-5">
+      <h4>
+        <u>{props.meaning.partOfSpeech}</u>
+      </h4>
       <p>
         <strong>Definition:</strong> {props.meaning.definition}
       </p>

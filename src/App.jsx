@@ -3,7 +3,7 @@ import Dictionary from "./Dictionary.jsx";
 
 export default function App() {
   return (
-    <div className="App container">
+    <div className="App container shadow mt-5 mb-5">
       <header>
         <h1 className="text-center m-5">React Dictionary</h1>
       </header>

@@ -5,9 +5,9 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <h2 className="mb-4">
+        <h3 className="mb-4">
           {props.results.word} - <em>{props.results.phonetic}</em>
-        </h2>
+        </h3>
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>

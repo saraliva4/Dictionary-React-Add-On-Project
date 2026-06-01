@@ -34,7 +34,9 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h2 className="text-center">What word do you want to search for?</h2>
+      <h2 className="text-center">
+        <em>What word do you want to search for?</em>
+      </h2>
       <form className="text-center mt-4 mb-4" onSubmit={search}>
         <input
           id="searchInput"
